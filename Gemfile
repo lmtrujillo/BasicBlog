@@ -17,6 +17,11 @@ gem 'webpacker', '~> 4.0'
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.7'
+#A modern CSS framework based on Flexbox
+gem 'bulma-rails', '~> 0.7.5'
+#Forms made easy!
+gem 'simple_form', '~> 5.0', '>= 5.0.1'
+
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
@@ -40,6 +45,12 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  #Provides a better error page for Rails and other Rack apps. Includes source code inspection, a live REPL and local/instance variable inspection for all stack frames.
+  gem 'better_errors', '~> 2.1', '>= 2.1.1'
+  #Guard is a command line tool to easily handle events on file system modifications.
+  gem 'guard', '~> 2.15', '>= 2.15.1'
+#Guard::LiveReload automatically reloads your browser when 'view' files are modified.
+  gem 'guard-livereload', '~> 2.5', '>= 2.5.2'
 end
 
 group :test do
