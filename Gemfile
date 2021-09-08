@@ -46,7 +46,7 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   #Provides a better error page for Rails and other Rack apps. Includes source code inspection, a live REPL and local/instance variable inspection for all stack frames.
-  gem 'better_errors', '~> 2.1', '>= 2.1.1'
+  gem 'better_errors', '~> 2.8'
   #Guard is a command line tool to easily handle events on file system modifications.
   gem 'guard', '~> 2.15', '>= 2.15.1'
 #Guard::LiveReload automatically reloads your browser when 'view' files are modified.
